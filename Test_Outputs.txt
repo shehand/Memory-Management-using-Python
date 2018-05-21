@@ -1,0 +1,147 @@
+
+
+                ##################################################
+                ##################################################
+                ##               !!! WELCOME!!!                 ##
+                ##                                              ##
+                ##             First Fit Algorithm              ##
+                ##################################################
+                ##################################################
+
+
+
+                INSTRUCTIONS :
+
+                For Allocating ==              For Terminating ==
+
+                    >>> A                          >>> T
+                    >>> Process ID                 >>> Process ID            
+                    >>> <Memory Size>                              
+
+                For Snapshots ==               For Exit ==
+
+                    >>> Show                       >>> Exit
+
+Enter the OS Memory : 400
+Enter the Total Memory : 2560
+Main Memory has been crated !
+
+Enter the Command : Show
+OS   0 K   399 K 
+
+Free   400 K   2560 K 
+
+Enter the Command : A
+Enter the Process ID to Allocate : P1
+Enter the Memory Size : 600
+Memory Allocated Succesfully !!!
+
+Enter the Command : Show
+OS   0 K   399 K 
+
+P1   400 K   999 K 
+
+Free   1000 K   2560 K 
+
+Enter the Command : A
+Enter the Process ID to Allocate : P2
+Enter the Memory Size : 1000
+Memory Allocated Succesfully !!!
+
+Enter the Command : Show
+OS   0 K   399 K 
+
+P1   400 K   999 K 
+
+P2   1000 K   1999 K 
+
+Free   2000 K   2560 K 
+
+Enter the Command : A
+Enter the Process ID to Allocate : P3
+Enter the Memory Size : 300
+Memory Allocated Succesfully !!!
+
+Enter the Command : Show
+OS   0 K   399 K 
+
+P1   400 K   999 K 
+
+P2   1000 K   1999 K 
+
+P3   2000 K   2299 K 
+
+Free   2300 K   2560 K 
+
+Enter the Command : T
+Enter the Process ID to Terminate : P2
+Process has been Terminated !!!
+
+Enter the Command : Show
+OS   0 K   399 K 
+
+P1   400 K   999 K 
+
+Free   1000 K   1999 K 
+
+P3   2000 K   2299 K 
+
+Free   2300 K   2560 K 
+
+Enter the Command : A
+Enter the Process ID to Allocate : P4
+Enter the Memory Size : 700
+Memory Allocated Succesfully !!!
+
+Enter the Command : Show
+OS   0 K   399 K 
+
+P1   400 K   999 K 
+
+P4   1000 K   1699 K 
+
+Free   1700 K   1999 K 
+
+P3   2000 K   2299 K 
+
+Free   2300 K   2560 K 
+
+Enter the Command : T
+Enter the Process ID to Terminate : P1
+Process has been Terminated !!!
+
+Enter the Command : Show
+OS   0 K   399 K 
+
+Free   400 K   999 K 
+
+P4   1000 K   1699 K 
+
+Free   1700 K   1999 K 
+
+P3   2000 K   2299 K 
+
+Free   2300 K   2560 K 
+
+Enter the Command : A
+Enter the Process ID to Allocate : P5
+Enter the Memory Size : 400
+Memory Allocated Succesfully !!!
+
+Enter the Command : Show
+OS   0 K   399 K 
+
+P5   400 K   799 K 
+
+Free   800 K   999 K 
+
+P4   1000 K   1699 K 
+
+Free   1700 K   1999 K 
+
+P3   2000 K   2299 K 
+
+Free   2300 K   2560 K 
+
+Enter the Command : Exit
+Bye !!!
